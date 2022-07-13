@@ -17,7 +17,7 @@ const valuesToCompare = [
   [false, false],
   ["Water", "oil"],
 ];
-for (let i = 0; i < 1; i++)
+for (let i = 0; i < valuesToCompare.length; i++)
   console.log(strictEquals(valuesToCompare[i][0], valuesToCompare[i][1]));
 
 export default strictEquals;
