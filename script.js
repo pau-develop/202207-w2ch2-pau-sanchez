@@ -1,8 +1,11 @@
-const strictEquals = function (a, b) {
-  if (Number.isNaN(a) && Number.isNaN(b)) return false;
-  else if ((1 / a).toString().includes("-") || (1 / b).toString().includes("-"))
+const strictEquals = function (value1, value2) {
+  if (Number.isNaN(value1) && Number.isNaN(value2)) return false;
+  else if (
+    (1 / value1).toString().includes("-") ||
+    (1 / value2).toString().includes("-")
+  )
     return true;
-  else return Object.is(a, b);
+  else return Object.is(value1, value2);
 };
 const valuesToCompare = [
   [1, 1],
