@@ -16,3 +16,5 @@ const valuesToCompare = [
 ];
 for (let i = 0; i < valuesToCompare.length; i++)
   console.log(strictEquals(valuesToCompare[i][0], valuesToCompare[i][1]));
+
+export default strictEquals;
