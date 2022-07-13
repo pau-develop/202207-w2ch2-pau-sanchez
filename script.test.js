@@ -1,0 +1,1 @@
+import strictEquals from "./script";
