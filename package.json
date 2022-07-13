@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "@types/jest": "^28.1.5",
+    "husky": "^8.0.0",
+    "jest": "^28.1.2"
   }
 }
